@@ -76,7 +76,7 @@ group(:omnibus_package) do
   gem "kitchen-openstack", ">= 5.0"
   gem "kitchen-vagrant", ">= 1.9"
   gem "kitchen-vcenter", ">= 2.8"
-  gem "kitchen-vra", ">= 3.0"
+  gem "kitchen-vra", ">= 3.3.2"
 
   # knife & plugins
   gem "knife"
