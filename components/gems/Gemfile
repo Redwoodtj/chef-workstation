@@ -61,7 +61,7 @@ group(:omnibus_package) do
   gem "fauxhai-ng", ">= 8.7.1"
 
   # inspec
-  gem "inspec-bin", "~> 4.23"
+  gem "inspec-bin", "~> 5.7", ">= 5.7.9"
 
   # test-kitchen and plugins
   gem "test-kitchen", ">= 3.0"
@@ -72,7 +72,7 @@ group(:omnibus_package) do
   gem "docker-api", ">= 2.0" # make sure we get the Ruby 2.7+ compatible release
   gem "kitchen-google", ">= 2.2"
   gem "kitchen-hyperv", ">= 0.6"
-  gem "kitchen-inspec", ">= 2.5"
+  gem "kitchen-inspec", ">= 2.6.2"
   gem "kitchen-openstack", ">= 5.0"
   gem "kitchen-vagrant", ">= 1.9"
   gem "kitchen-vcenter", ">= 2.8"
