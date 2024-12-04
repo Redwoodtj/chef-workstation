@@ -75,7 +75,7 @@ group(:omnibus_package) do
   gem "kitchen-inspec", ">= 2.5"
   gem "kitchen-openstack", ">= 5.0"
   gem "kitchen-vagrant", ">= 1.9"
-  gem "kitchen-vcenter", ">= 2.8"
+  gem "kitchen-vcenter", ">= 2.12.0"
   gem "kitchen-vra", ">= 3.0"
 
   # knife & plugins
@@ -86,7 +86,7 @@ group(:omnibus_package) do
   gem "knife-tidy", ">= 2.0.9"
   gem "knife-windows", ">= 3.0.11"
   gem "knife-vcenter", ">= 3.0.1"
-  gem "knife-vsphere", ">= 4.1.1"
+  gem "knife-vsphere", ">= 5.1.0"
   gem "knife-vrealize", ">= 7.0.0"
 
   # ed25519 ssh key support done here as it's a native gem we can't put in train
@@ -103,7 +103,7 @@ group(:omnibus_package) do
   gem "net-ssh", ">= 4.2.0"
   gem "listen"
   gem "mixlib-install"
-  gem "nokogiri", ">= 1.11.7"
+  gem "nokogiri", ">= 1.15.7"
   # Locked because pry-byebug is broken with 13+
   # some work is ongoing? https://github.com/deivid-rodriguez/pry-byebug/issues/343
   gem "pry", "= 0.13.0"
